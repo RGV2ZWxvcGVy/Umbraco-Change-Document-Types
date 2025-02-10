@@ -1,0 +1,64 @@
+{
+  "Name": "MigrationSettings",
+  "Alias": "migrationSettings",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-alert color-pink",
+  "Thumbnail": "folder.png",
+  "Description": "A temporary document type for the migration to the new document type structure.",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/ce602eb780344ee9987be7965721dbfd",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "7ec667ba-4d3e-41b1-9841-4704fd2a05bd",
+      "Name": "Migration Settings",
+      "Alias": "migrationSettings",
+      "PropertyTypes": [
+        {
+          "Key": "4363ed77-7d1e-4f0e-a170-00ea5d1db03c",
+          "Alias": "enableDocumentTypeFlipper",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "WARNING: Enables changing all document types automatically when publishing this node.",
+          "Name": "EnableDocumentTypeFlipper"
+        },
+        {
+          "Key": "96a53c9f-2b10-404d-abbc-7248cc903e54",
+          "Alias": "publishNodesOnly",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "Only publish all of the nodes instead of executing the migration of document types. This ensures the document type changes of the nodes are correctly registered in the cache.",
+          "Name": "PublishNodesOnly",
+          "SortOrder": 2
+        },
+        {
+          "Key": "cd6a45dd-650c-4ccc-a946-ea7e80cb89ee",
+          "Alias": "migrationType",
+          "DataType": "umb://data-type/5c90945d2ff944f4944c3dd7e2c3ee8f",
+          "Description": "The type of migration. On = Migrate to new document type structure. Off = Migrate to old document types (rollback).",
+          "Name": "MigrationType",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/066e2043c79440f495ad923e3d818c6b",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/5c90945d2ff944f4944c3dd7e2c3ee8f",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type-container/ce602eb780344ee9987be7965721dbfd",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "10.4.1+b70c703"
+}

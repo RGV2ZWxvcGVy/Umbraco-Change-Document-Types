@@ -1,0 +1,16 @@
+{
+  "Name": "Toggle - MigrationType - MigrationSettings",
+  "Alias": "",
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": "Integer",
+  "Configuration": {
+    "default": false,
+    "showLabels": true,
+    "labelOn": "New",
+    "labelOff": "Old"
+  },
+  "Udi": "umb://data-type/5c90945d2ff944f4944c3dd7e2c3ee8f",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.4.1+b70c703"
+}
