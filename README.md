@@ -1,7 +1,8 @@
 This repository contains some code snippets to change an old document type structure to a new and updated one.
 An use case could be that the current structure of document types is out-of-date, uses too much inheritance instead of relying on compositions etc.
 Beware that this code is only tested in Umbraco 10.x, so adjustments could be needed if you are using a different version of Umbraco.
-CAUTION: Just as the Flip.Umbraco package that is within this repository, this is experimental code and should be used with caution.
+
+**CAUTION**: Just as the Flip.Umbraco package that is within this repository, this is experimental code and should be used with caution.
 Make a backup of your database before running the migration.
 
 If you are using Umbraco Cloud, you can add the provided uda files to your project, and update the Umbraco schema.
