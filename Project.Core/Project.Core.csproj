@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flip.Umbraco" Version="10.0.0" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="10.8.8" />
+    <PackageReference Include="Umbraco.Deploy.Infrastructure" Version="10.4.1" />
+  </ItemGroup>
+
+</Project>
